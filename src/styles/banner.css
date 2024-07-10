@@ -10,10 +10,11 @@ div#banner{
     justify-content: center;
 
     color: white;
-    font-size: 3.5vw;
+    font-size: 3.2vw;
     font-weight: 100;
 
-    background-image: url('../assets/images/banner.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.352), rgba(0, 0, 0, 0.352)), /* Overlay */
+                url('../assets/images/banner.png');
     background-size: cover;
     background-attachment: fixed;
 }
