@@ -9,7 +9,11 @@ div#projetos h2{
 div#youtube{
     margin: 60px 0px;
 }
-
+div#projetosCards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 div#videos{
     display: flex;
     flex-wrap: wrap;
