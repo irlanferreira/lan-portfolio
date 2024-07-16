@@ -1,0 +1,12 @@
+div#contato {
+    background-color: rgb(245, 245, 245);
+}
+div#contato img{
+    width: 20px;
+}
+div#contato h5{
+    text-align: center;
+}
+div#meios_contato p{
+    margin: 15px;
+}

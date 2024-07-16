@@ -10,7 +10,7 @@ div#banner{
     justify-content: center;
 
     color: white;
-    font-size: 3.2vw;
+    font-size: 4.2vw;
     font-weight: 100;
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.352), rgba(0, 0, 0, 0.352)), /* Overlay */
@@ -20,4 +20,10 @@ div#banner{
 }
 div h1{
     font-weight: 200;
+}
+div#banner p{
+    font-size: 2vw;
+}
+div#banner h1{
+    font-size: 4vw;
 }

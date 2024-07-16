@@ -11,6 +11,10 @@ ul > li{
     color: white;
     text-align: center;
 }
+li a {
+    color: white;
+    text-decoration: none;
+}
 li img{
     width: 17px;
 }

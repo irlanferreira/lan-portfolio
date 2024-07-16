@@ -9,13 +9,13 @@ import SkillCard from './SkillCard'
 export default function Skills(){
     return (
     <>
-        <h1 style={{textAlign:'center', padding:'40px 0px'}}>Hard Skills</h1>
+        <h2 style={{textAlign:'center', padding:'40px 0px'}}>Hard Skills</h2>
         <div id='skills'>
-            <SkillCard nome='Inglês' img={EUAImg} nivel='Intermediário' />
-            <SkillCard nome='HTML & CSS' img={HTMLCSSImg} nivel='Intermediário' />
-            <SkillCard nome='React' img={ReactImg} nivel='Iniciante' />
             <SkillCard nome='Python' img={PythonImg} nivel='Intermediário' />
             <SkillCard nome='Flask' img={FlaskImg} nivel='Intermediário' />
+            <SkillCard nome='HTML & CSS' img={HTMLCSSImg} nivel='Intermediário' />
+            <SkillCard nome='React' img={ReactImg} nivel='Iniciante' />
+            <SkillCard nome='Inglês' img={EUAImg} nivel='Intermediário' />
         </div>
     </>
     )
