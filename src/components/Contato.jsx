@@ -9,7 +9,7 @@ export default function Contato(){
         <>
             <div id="contato">
                 <h5>Entre em contato comigo</h5>
-                <div id="meios_contato" className='d-flex justify-content-evenly'>
+                <div id="meios_contato" className='d-flex justify-content-evenly flex-wrap' >
                     <div id="esquerda">
                         <a href="mailto:irlanferreiradasilva2@gmail.com" target='_blank'><p><img src={emailIcon} alt="" />irlanferreiradasilva2@gmail.com</p></a>
 
