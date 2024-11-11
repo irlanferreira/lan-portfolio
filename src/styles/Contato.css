@@ -10,6 +10,9 @@ div#contato h5{
 div#meios_contato p{
     margin: 15px;
 }
+div#meios_contato a{
+    text-decoration: none;
+}
 @media (max-width: 600px) {
     div#meios_contato p{
     font-size: 0.7em;

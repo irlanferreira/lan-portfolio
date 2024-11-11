@@ -27,3 +27,17 @@ div#banner p{
 div#banner h1{
     font-size: 4vw;
 }
+@media (max-width: 600px){
+    div#banner{
+        height: 50vh;
+    }
+    div#banner h1{
+        font-size: 7.5vw;
+        word-wrap: break-word;
+    }
+    div#banner p{
+        font-size: 3vw;
+        word-wrap: break-word;
+    }
+    
+}

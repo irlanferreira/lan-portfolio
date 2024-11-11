@@ -31,3 +31,9 @@ div#videos{
 div#videos iframe{
     transform: scale(0.7);
 }
+
+@media (max-width: 600px){
+    div#projetos h2 {
+        font-size: 1.2em;
+    }
+}
